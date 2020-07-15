@@ -12,22 +12,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-
-input{
-  width: 100%;
-  height: 60px;
-  padding: 8px;
-  border-radius: 10px;
-  background-color: #ff4;
-  font-size: 16px;
-  border: none;
-}
-
 .root {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 70px;
   background-color: #f8f7ff;
   width: 100vw;
   height: 100vh;
@@ -42,24 +30,107 @@ input{
   background-color: #fff;
   flex-direction: column;
   padding: 50px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .divLeft .title {
   color: #2b2051;
+  font-size: 24px;
 }
 
+.divLeft input, select{
+  width: 100%;
+  height: 60px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  font-size: 16px;
+  border: none;
+  color: #665;
+}
 
-/* .divLeft > input, select {
+.divLeft > input{
   margin-top: 20px;
-} */
-/* 
+}
+
 input::placeholder {
   font-size: 16px;
   color: #665;
-} */
+}
 
 .divSelect {
   display: flex;
-  flex-direction: row;
-  
+  flex-direction: row;  
+  margin-top: 20px;
+}
+
+.divSelect input {
+  margin-left: 20px;
+}
+
+.divSelect .gender{
+  color: #665;
+}
+
+.divLeft p {
+  font-size: 12px;
+  color: #444;
+  text-align: center;
+}
+
+.divLeft b {
+  color: #6236ff;
+  margin-top: 20px;
+}
+
+.divLeft button {
+  width: 100%;
+  height: 60px;
+  padding: 8px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #6236ff;
+  font-size: 16px;
+  border: none;
+  margin-top: 25px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.divLeft button:hover {
+  background-color: #3600e6;
+}
+
+.divRight {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+  background-color: #e4d5f1;
+  width: 700px;
+  height: 100%;
+  padding: 0 0 50px 70px; /*top, right, bottom e left*/
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.divRight h1 {
+  color: #2b2051;
+  font-size: 40px;
+  max-width: 300px;
+  margin-top: 45px;
+  line-height: 1.5;
+}
+
+.divRight p {
+  color: #2b2051;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+@media screen and (max-width:600px){
+  .divRight {
+    display: none;
+  }
 }
