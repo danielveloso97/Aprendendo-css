@@ -9,4 +9,4 @@ Para desenvolver a tela utilizamos os conceitos de:
 
 Resultado Final! 
 
-![Resultado Final](./tela.png)
+![Resultado Final](./imagens/tela.png)
