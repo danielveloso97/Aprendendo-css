@@ -7,3 +7,4 @@ Para desenvolver a tela utilizamos os conceitos de:
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
 - [CSS](https://www.w3schools.com/cssref/)
 
+[imagem](./tela.png)
